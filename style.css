@@ -497,6 +497,10 @@ footer>p{
         object-position: center;
         
     }
+    .section-3{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 
     .venture-cards{
         /* flex-direction: column; */
