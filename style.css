@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     margin: 0;
     border: 0;
@@ -64,8 +68,8 @@ navbar{
     
 }
 .navlogo{
-    /* width: 200px; */
-    padding: 25px;
+    width: 50px;
+    /* padding: 25px; */
     padding-left: 50px;
 }
 .close{
@@ -113,11 +117,11 @@ section{
 
 .main-content{
     padding-left: 5%;
-    width: 50%;
+    width: 60%;
 }
 
 .main-content h1{
-    font-size: 6vw;
+    font-size: 4vw;
 }
 
 .main-content p{
@@ -475,21 +479,21 @@ footer>p{
     }
     .close{
         /* display:inline-block; */
-        background-color: brown;
+        /* background-color: brown; */
         z-index: 2;
         position: fixed;
         width: 2rem;
-        top: 2rem;
+        top: 1.5rem;
         right: 1rem;
     }
 
     .open{
         display:inline-block;
-        background-color: brown;
+        /* background-color: brown; */
         z-index: 2;
         position: absolute;
         width: 2rem;
-        top: 2rem;
+        /* top: 2rem; */
         right: 1rem;
     }
 
@@ -507,7 +511,7 @@ footer>p{
         width: 90%;
     }
     .main-content h1{
-        font-size: 300%;
+        font-size: 200%;
         line-height: 50px;
     }
 
