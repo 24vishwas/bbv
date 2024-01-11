@@ -28,6 +28,10 @@ navbar{
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
     
 }
+navbar a{
+text-decoration: none;
+color: inherit;
+}
 
 
 .navLinks{
@@ -71,7 +75,12 @@ navbar{
     width: 50px;
     /* padding: 25px; */
     padding-left: 50px;
+    font-weight: 900;
+    font-family: 'Montserrat', serif ;
+    /* font-family: 'Oranienbaum', serif; */
+    color: #006994;
 }
+
 .close{
     width: 15px;
 }
@@ -99,7 +108,7 @@ section{
 
 .about-content{
     background-image:linear-gradient(270deg, rgba(0, 0, 0, 0) 28.91%, #006994 100%),
-    url(./assets/main-img.png);
+    url(./assets/main-img.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -211,7 +220,9 @@ section{
 
   }
 
-
+.section-3{
+    margin-block: 5%;
+}
   .section-3 h1{
     text-align: center;
     font-size: 40px;
@@ -254,7 +265,7 @@ section{
   }
 
   .section-4{
-    margin-bottom: 5vh;
+    margin-block: 10%;
   }
 
   .section-4 h1{
@@ -323,6 +334,7 @@ section{
 .v-card > div{
     padding: 20px;
     min-height: 150px;
+    text-align: center;
     /* margin-bottom: 70px; */
 }
 
