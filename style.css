@@ -361,6 +361,10 @@ footer>p{
     width: 33%;
 
 }
+.nav-footer .navlogo{
+    color: white;
+    padding-left: 0;
+}
 .nav-footer li{
     margin-top: 30px;
 }
@@ -584,6 +588,10 @@ footer a{
     .nav-footer{
         width: 100%;
         text-align: center;
+    }
+    .nav-footer .navlogo{
+        color: #ffffff !important;
+        padding-left: 0;
     }
     .feedback{
         margin-top: 10vh;
